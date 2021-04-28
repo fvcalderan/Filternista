@@ -1,0 +1,125 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {308, 308}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "frame" : "{{110, 190}, {100, 100}}",
+          "flex" : "W",
+          "name" : "imv",
+          "custom_attributes" : "{'content_mode' : ui.CONTENT_SCALE_ASPECT_FIT}",
+          "uuid" : "42BC06F2-D740-46EC-8EA1-21ACAA98B976"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 322}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "DF137425-6F49-4938-BC89-D783063C3B92",
+          "flex" : "R",
+          "corner_radius" : 15,
+          "background_color" : "RGBA(0.189139,0.189139,0.189139,1.000000)",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "border_width" : 0,
+          "title" : "Load",
+          "action" : "load_tapped",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "btnLoad",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{234, 322}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "DF137425-6F49-4938-BC89-D783063C3B92",
+          "font_size" : 15,
+          "corner_radius" : 15,
+          "background_color" : "RGBA(0.189139,0.189139,0.189139,1.000000)",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "border_width" : 0,
+          "title" : "Save",
+          "action" : "save_tapped",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "btnSave",
+          "flex" : "L"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 362}, {308, 112}}",
+        "class" : "TableView",
+        "attributes" : {
+          "uuid" : "802F4C1C-5ECE-4BBC-8D9F-7F389F0A5812",
+          "data_source_action" : "tbl_tapped",
+          "flex" : "WH",
+          "corner_radius" : 15,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{60, 140}, {200, 200}}",
+          "data_source_items" : "",
+          "data_source_number_of_lines" : 1,
+          "border_width" : 0,
+          "data_source_move_enabled" : false,
+          "data_source_delete_enabled" : false,
+          "data_source_font_size" : 18,
+          "row_height" : 44,
+          "class" : "TableView",
+          "name" : "tbl",
+          "editing" : false
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{94, 322}, {132, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "DF137425-6F49-4938-BC89-D783063C3B92",
+          "font_size" : 15,
+          "corner_radius" : 15,
+          "background_color" : "RGBA(0.189139,0.189139,0.189139,1.000000)",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "border_width" : 0,
+          "title" : "Camera",
+          "action" : "load_tapped",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "btnCam",
+          "flex" : "LR"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(0.009363,0.009363,0.009363,1.000000)",
+      "name" : "Filternista",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
